@@ -12,34 +12,34 @@ const HeroBottom = () => {
             </h1>
         </div> 
         {/*bottom section*/}
-        <div>
-            <div>
+        <div  className=" absolute bottom-0 right-0 w-full">
+            <div className="grid sm:grid-cols-3 container">
                 {/* first col */}
-                <div>
-                    <div>
-                        <p>Kolkata</p>
-                        <p>India</p>
+                <div className="hidden sm:block">
+                    <div className="font-semibold">
+                        <p className="text-gray-500">Kolkata</p>
+                        <p className="text-sm text-primary">India</p>
                     </div>
-                    <div>
-                        <p>26Jan, 2024</p>
+                    <div className="font-semibold">
+                        <p className="text-gray-500">26Jan, 2024</p>
                     </div>
                     <div></div>
                 </div>
                 {/* second col */}
-                <div>
+                <div className="center">
                     {" "}
-                    <span>
+                    <span className="hidden sm:block">
                         <FaArrowDown />
                     </span>
                 </div>
                 {/* third col */}
-                <div>
-                    <div>
-                        <div>
-                            <IoIosArrowBack />
+                <div className="flex justify-center sm:justify-end mb-4">
+                    <div className="flex flex-row sm:flex-col  gap-5">
+                        <div className="bg-white rounded-full p-2 shadow-md hover:scale-110 duration-200">
+                            <IoIosArrowBack className="text-primary"  />
                         </div>
-                        <div>
-                            <IoIosArrowForward />
+                        <div className="bg-primary rounded-full p-2 shadow-md hover:scale-110 duration-200">
+                            <IoIosArrowForward className=" text-white" />
                         </div>
                     </div>
                 </div>

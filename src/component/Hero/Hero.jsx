@@ -4,6 +4,7 @@ import HeroImg from "../../assets/dora-hero.png";
 import HeroImg2 from "../../assets/dora.png";
 import { useState } from "react";
 import { IoClose } from "react-icons/io5";
+import HeroBottom from "./HeroBottom";
 
 const Hero = () => {
 
@@ -67,6 +68,7 @@ const Hero = () => {
                 </div>
             </div> 
             {/* bottom section*/}
+            <HeroBottom />
             <div>
                 {/* Video Play section */}
                 {isPlay && (
