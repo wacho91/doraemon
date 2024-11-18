@@ -13,7 +13,12 @@ const HeroBottom = () => {
         </div> 
         {/*bottom section*/}
         <div  className=" absolute bottom-0 right-0 w-full">
-            <div className="grid sm:grid-cols-3 container">
+            <div
+                data-aos="fade-up"
+                data-aos-delay="600"
+                data-aos-offset="0" 
+                className="grid sm:grid-cols-3 container"
+            >
                 {/* first col */}
                 <div className="hidden sm:block">
                     <div className="font-semibold">
