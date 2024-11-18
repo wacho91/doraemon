@@ -30,7 +30,7 @@ const Navbar = () => {
           {/* logo section */}
           <div className="flex items-center gap-4">
             <GiAtomicSlashes className="text-6xl text-primary" />
-              <div className="flex flex-col text-2xl font-bold text-gray-600 leading-5">
+              <div className="flex flex-col text-xl font-bold text-gray-600 leading-5">
                 <span>Dora</span>
                 <span>emon</span>
               </div>
