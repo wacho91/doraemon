@@ -15,8 +15,8 @@ const Hero = () => {
 
   return (
     <>
-        <div>
-            <div>
+        <div className="min-h-[700px] center relative">
+            <div className="container mt-12 sm:mt-0 pb-20 sm:pb-0">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-0 relative z-10">
                     {/* text content */}
                     <div className="space-y-3 md:space-y-7 flex flex-col justify-center text-center sm:text-left px-10 sm:px-0">
