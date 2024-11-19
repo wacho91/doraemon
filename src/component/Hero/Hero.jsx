@@ -49,7 +49,7 @@ const Hero = () => {
                         </div>
                     </div>
                     {/* image section*/}
-                    <div className="relative">
+                    <div data-aos="zoom-in"  className="relative">
                         <img 
                             src={HeroImg} 
                             alt=""
