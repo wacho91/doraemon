@@ -32,7 +32,11 @@ const Hero = () => {
                             The first full story in the Doraemon series was published in
                             January 1970
                         </p>
-                        <div className="mx-auto sm:mx-0">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="400" 
+                            className="mx-auto sm:mx-0"
+                        >
                             <button
                                 onClick={handlePlay}
                                 className="primary-btn center gap-2"
