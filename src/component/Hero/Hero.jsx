@@ -58,7 +58,7 @@ const Hero = () => {
                         <div className="absloute z-0 bottom-0 left-0 w-[260px] mx-auto h-[20px] blur-2xl bg-black"></div>
                     </div>
                     {/*Review Section*/}
-                    <div className="sm:pl-16 md:pl-24 flex justify-center sm:justify-end ">
+                    <div data-aos="slide-left" className="sm:pl-16 md:pl-24 flex justify-center sm:justify-end ">
                         <div className="flex items-center justify-end">
                             <div className="space-y-4">
                                 <img 
