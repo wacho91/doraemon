@@ -20,7 +20,7 @@ const Hero = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-0 relative z-10">
                     {/* text content */}
                     <div className="space-y-3 md:space-y-7 flex flex-col justify-center text-center sm:text-left px-10 sm:px-0">
-                        <div>
+                        <div data-aos="fade-up">
                             <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold"> Watch Now in</h1>
                             <h1 className="text-6xl font-bold text-primary">3D</h1>
                         </div>
