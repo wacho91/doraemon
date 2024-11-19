@@ -24,7 +24,11 @@ const Hero = () => {
                             <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold"> Watch Now in</h1>
                             <h1 className="text-6xl font-bold text-primary">3D</h1>
                         </div>
-                        <p className="text-gray-500 text-sm font-semibold">
+                        <p 
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                            className="text-gray-500 text-sm font-semibold"
+                        >
                             The first full story in the Doraemon series was published in
                             January 1970
                         </p>
